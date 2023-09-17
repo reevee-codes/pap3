@@ -211,11 +211,9 @@ aopalliance
 backport-util-concurrent
 ch
 classworlds
-com
 commons-codec
 commons-io
 jakarta
-javax
 jline
 junit
 net
