@@ -1,0 +1,19 @@
+{
+    "items": [
+        {
+            "name": "TWOAJ STARA",
+            "type": "ALFA ROMEO",
+            "color": "yellow"
+        },
+        {
+            "name": "TWOJ STARY",
+            "type": "BMW",
+            "color": "yellow"
+        },
+        {
+            "name": "MAGIK",
+            "type": "skoczek",
+            "color": "yellow"
+        }
+    ]
+}

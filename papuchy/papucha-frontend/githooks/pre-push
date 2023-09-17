@@ -1,0 +1,14 @@
+#!/bin/sh
+
+
+echo "--send push notif: start--"
+
+export GIT_DIR=${GIT_DIR-`git rev-parse --git-dir`}
+SECRETVALUE=$(cat "$GIT_DIR/../papucha-frontend/.discord_link")
+
+echo $SECRETVALUE
+
+wget -O- "$SECRETVALUE" --post-data "content=@everyone new frontend goodies have been pushed, fuck yeah!"
+echo "--send push notif: end--"
+
+exit 0

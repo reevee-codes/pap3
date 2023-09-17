@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "7a944959-9655-4ce2-aec3-0e3aa7d70f67",
+		"name": "Papucha Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5485723"
+	},
+	"item": [
+		{
+			"name": "get papuchy",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/papuchaserwis/papugi",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"papuchaserwis",
+						"papugi"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add papucha",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \r\n   \"name\": \"sampleBorb\",  \r\n   \"weight\": 35,\r\n   \"color\": \"BLUE\"\r\n}   ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/papuchaserwis/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"papuchaserwis",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "remove papucha by id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/papuchaserwis/papuga/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"papuchaserwis",
+						"papuga",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update papucha",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{  \"id\": 1,\r\n   \"name\": \"Sebusia\",  \r\n   \"weight\": 2138,\r\n   \"color\": \"GREEN\"\r\n}   ",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/papuchaserwis/papuga",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"papuchaserwis",
+						"papuga"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

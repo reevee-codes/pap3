@@ -1,0 +1,12 @@
+{
+    "type": "module",
+    "typeAcquisition": {
+        "include": ["node"]
+    },
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "checkJs": true,
+        "resolveJsonModule": true
+    },
+    "exclude": ["node_modules", "**/node_modules", ".expo"]
+}
