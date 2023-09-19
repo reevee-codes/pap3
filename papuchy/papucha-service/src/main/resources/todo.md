@@ -1,14 +1,11 @@
-- automatyczne generowanie id przy wrzucaniu papugi przez json - DONE
-- get all papugi - DONE
-- get pojedyncza papuga przez id - DANE
-- - get wszystkie papugi danego koloru
-- get wszystkie papugi grubsze niz 50gram
-- zrobic paczke postmana
-- spakowac do dockera
-- - logowanie
+
+- get wszystkie papugi danego koloru (filtrowanie papug)
+- get wszystkie papugi grubsze niz 50gram (filtrowanie papug)
+- - logowanie przez Spring Security
+- lista papug danego usera
+- dodawanie papug do listy usera
+- lajkowanie papug wszystkich
+- zobacz swoje ulubione papugi
+- usun papuge z ulubionych
 - call przez token
 
-
-
-docker build . -t papucha-service
-docker run -p 8080:8080 -it papucha-service

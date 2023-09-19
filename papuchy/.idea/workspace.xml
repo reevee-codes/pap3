@@ -5,31 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2409a40d-af0c-4d99-a6a5-77872088b84a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/aws.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/papuchy.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/papuzki/papuchaservice/PapuchaServiceApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/papuzki/papuchaservice/controller/PapugaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/papuzki/papuchaservice/model/Color.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/papuzki/papuchaservice/model/Papuga.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/papuzki/papuchaservice/repository/PapugaRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/papuzki/papuchaservice/service/PapugaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/papuzki/papuchaservice/swagger/SwaggerConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/papuzki/papuchaservice/swagger/SwaggerConfigProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Papucha Service.postman_collection.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/todo.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/papuzki/papuchaservice/PapuchaServiceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +86,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/mminu/Documents/AAAAPapucha/papuchy"
+    "last_opened_file_path": "C:/Users/mminu/Documents/AAAAPapucha/papuchy",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager" selected="Application.PapuchaServiceApplication">
