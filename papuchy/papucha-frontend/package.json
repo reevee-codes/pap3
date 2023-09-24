@@ -1,21 +1,27 @@
 {
   "name": "papucha-frontend",
   "version": "1.0.0",
-  "main": "src/App.js",
+  "main": "src/App.tsx",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "set-githooks": "mkdir -p ../.git/hooks && cp githooks/* ../.git/hooks/",
-    "docker:build": "docker build . -t pm/papucha-frontend",
-    "docker:start": "docker run -p 8081:8081 -d pm/papucha-frontend"
+    "set-githooks": "mkdir -p ../../.git/hooks && cp githooks/* ../../.git/hooks/",
+    "docker:build": "docker build . -t papucha-frontend",
+    "docker:start": "docker run -it -p 8081:8081 -p 19006:19006 papucha-frontend"
   },
   "dependencies": {
+    "@expo/webpack-config": "^19.0.0",
+    "@types/react": "~18.2.14",
     "expo": "~49.0.10",
     "expo-status-bar": "~1.6.0",
     "react": "18.2.0",
-    "react-native": "0.72.4"
+    "react-dom": "18.2.0",
+    "react-native": "0.72.4",
+    "react-native-web": "~0.19.6",
+    "typescript": "^5.1.3",
+    "zod": "^3.22.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"

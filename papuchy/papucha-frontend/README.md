@@ -12,8 +12,8 @@ npx expo start
 ```
 
 ## startup - docker
-1. `docker build . -t pm/papucha-frontend`
-2. `docker run -p 8081:8081 -d pm/papucha-frontend`
+1. `docker build . -t papucha-frontend``,
+2. `docker run -it -p 8081:8081 -p 19006:19006 papucha-frontend` change `-it` for `-d` to run headless
 
 ## mobile preview
     install https://expo.dev/client to let mobile run app hosted on your pc
@@ -40,6 +40,6 @@ npx expo start
 - (linux) - EXPO_PUBLIC_TTT='localhost:2137'; npx expo start
 - (powershell) - `$env:EXPO_PUBLIC_TTT = 'localhost:2137'; npx expo start`
 
-## hooks
+## hooks to use when developing frontend
 1. create .discord-link with webhook link
-2. run `npm run set-githooks` on linux, doesnt work in powershell
+2. run `npm run set-githooks` on linux, might not work in powershell

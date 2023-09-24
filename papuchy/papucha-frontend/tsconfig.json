@@ -1,0 +1,12 @@
+{
+  "extends": "expo/tsconfig.base",
+  "type": "module",
+  "typeAcquisition": {
+      "include": ["node"]
+  },
+  "compilerOptions": {
+      "checkJs": true,
+      "resolveJsonModule": true
+  },
+  "exclude": ["node_modules", "**/node_modules", ".expo"]
+}
