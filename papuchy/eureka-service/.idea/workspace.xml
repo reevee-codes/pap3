@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ef28764-fe49-441b-a49f-e7b5d94ed2b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/Readme uruchamianie mikroserwisow" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../papucha-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../papucha-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../papucha-service/src/main/java/com/papuzki/papuchaservice/PapuchaServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../papucha-service/src/main/java/com/papuzki/papuchaservice/PapuchaServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../papucha-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../papucha-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,16 +27,24 @@
     </option>
   </component>
   <component name="ProjectId" id="2Vr9B2J3r9QoZYha30iJ3XmGqjl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/mminu/Documents/AAAAPapucha/papuchy/eureka-service"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mminu/Documents/AAAAPapucha/papuchy/eureka-service&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mminu\Documents\AAAAPapucha\papuchy\eureka-service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="ServiceRegistrationAndDiscoveryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.serviceregistrationanddiscoveryservice.ServiceRegistrationAndDiscoveryServiceApplication" />
       <module name="service-registration-and-discovery-service" />
@@ -64,8 +71,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Application.ServiceRegistrationAndDiscoveryServiceApplication" />
       </list>
     </recent_temporary>
