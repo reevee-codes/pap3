@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ef28764-fe49-441b-a49f-e7b5d94ed2b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/Readme uruchamianie mikroserwisow" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/bootstrap/AppBootStrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/config/JwtGeneratorImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/config/JwtGeneratorInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/exception/UserNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/service/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -33,18 +39,18 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/mminu/Documents/AAAAPapucha/papuchy/eureka-service&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/mminu/Documents/AAAAPapucha/papuchy/AuthenticatorService"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mminu\Documents\AAAAPapucha\papuchy\eureka-service" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Application.ServiceRegistrationAndDiscoveryServiceApplication">
     <configuration name="ServiceRegistrationAndDiscoveryServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.serviceregistrationanddiscoveryservice.ServiceRegistrationAndDiscoveryServiceApplication" />
       <module name="service-registration-and-discovery-service" />
@@ -80,13 +86,15 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Application.ServiceRegistrationAndDiscoveryServiceApplication" />
+        <item itemvalue="Docker.Dockerfile" />
       </list>
     </recent_temporary>
   </component>
