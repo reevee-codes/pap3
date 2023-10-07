@@ -11,6 +11,6 @@ ADD . $HOME
 RUN ["mvn", "package"]
 
 
-EXPOSE 8080
+EXPOSE 8085
 
 CMD ["java", "-jar", "./target/authenticator-0.0.1-SNAPSHOT.jar"]

@@ -1,7 +1,7 @@
 Docker building:
 cd eureka-service
 docker build . -t eureka-service
-docker run -p 8080:8080 -it eureka-service
+docker run -p 8761:8761 -it eureka-service
 
 1. uruchomic Eureka Server
 2. uruchomic papucha-service
