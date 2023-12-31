@@ -3,6 +3,7 @@ package com.papuzki.papuchaservice.controller;
 import static javax.servlet.http.HttpServletResponse.SC_BAD_REQUEST;
 import static org.apache.http.HttpStatus.SC_OK;
 
+import com.papuzki.papuchaservice.model.Color;
 import com.papuzki.papuchaservice.model.Papuga;
 import com.papuzki.papuchaservice.service.PapugaService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -41,6 +42,16 @@ public class PapugaController {
     @GetMapping("/papuga/{id}")
     public Papuga getPapuga(@PathVariable("id") Long id) {
         return papugaService.getPapugaById(id);
+    }
+
+    @ApiOperation("get papuga by color")
+    @ApiResponses(value = {@ApiResponse(code = SC_OK, message = "ok"),
+            @ApiResponse(code = SC_BAD_REQUEST, message = "An unexpected error occurred")})
+    @ApiResponse(code = 200,
+            message = "got papuga by color")
+    @GetMapping("/waga/{color}")
+    public List<Papuga> getByColor(@PathVariable("color") int weight) {
+        return papugaService.getByColor(weight);
     }
 
     @ApiOperation("remove papuga by id")

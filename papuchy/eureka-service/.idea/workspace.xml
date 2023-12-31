@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4ef28764-fe49-441b-a49f-e7b5d94ed2b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/bootstrap/AppBootStrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/config/JwtGeneratorImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/config/JwtGeneratorInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/exception/UserNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../authenticator/src/main/java/com/example/authenticator/app/service/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../authenticator/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../authenticator/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,12 +30,12 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/mminu/Documents/AAAAPapucha/papuchy/AuthenticatorService"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mminu/Documents/AAAAPapucha/papuchy/AuthenticatorService&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mminu\Documents\AAAAPapucha\papuchy\eureka-service" />

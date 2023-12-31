@@ -22,6 +22,11 @@ public class PapugaService {
         return repository.findById(id).get();
     }
 
+    public List<Papuga> getByColor(int weight) {
+        return repository.findByWeight(weight);
+    }
+
+
     public List<Papuga> getAllPapugi() {
         List<Papuga> papugi = new ArrayList<Papuga>();
         repository.findAll().forEach(employee -> papugi.add(employee));
